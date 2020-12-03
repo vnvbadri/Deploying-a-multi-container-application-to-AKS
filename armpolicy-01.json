@@ -1,4 +1,4 @@
-{
+﻿{
 	 "if": {
 	    "anyOf": [
 		 {
@@ -20,9 +20,13 @@
 				    "field": "type",
 				    "like": "Microsoft.Sql/servers/databases/*"
 				    },
+					{​​​​​​​
+					"field": "type",
+					"like": "Microsoft.Storage/storageAccounts/*"
+					}​​​​​​​,
                     {
 				    "field": "type",
-				    "in": ["Microsoft.ContainerRegistry/registries", "Microsoft.ContainerService/managedClusters", "Microsoft.Sql/servers", "Microsoft.Sql/servers/databases"]
+				    "in": ["Microsoft.ContainerRegistry/registries", "Microsoft.ContainerService/managedClusters", "Microsoft.Sql/servers", "Microsoft.Sql/servers/databases", "Microsoft.Storage/storageAccounts"]
 				    }
                 ]
 			}
@@ -53,7 +57,24 @@
 			}
 		  ]
 		},
-
+		 {​​​​​
+          "allOf": [
+            {​​​​​
+              "source": "action",
+              "equals": "Microsoft.Storage/storageAccounts/write"
+            }​​​​​,
+            {​​​​​
+              "field": "type",
+              "equals": "Microsoft.Storage/storageAccounts"
+            }​​​​​,
+            {​​​​​
+              "not": {​​​​​
+                "field": "Microsoft.Storage/storageAccounts/sku.name",
+                "in": [ "Standard_LRS" ]
+              }​​​​​
+            }​​​​​
+          ]
+        }​​​​​,
 	  ]
 	},
 	"then": {
