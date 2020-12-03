@@ -34,7 +34,7 @@
 			  },
 			  {
 				"field": "type",
-				"like": "Microsoft.Compute/virtualMachineScaleSets"
+				"like": "Microsoft.Compute/virtualMachineScaleSets/write"
 			  },
 			  {
 				"field": "type",
@@ -58,7 +58,7 @@
 			  },			  			  
 			  {
 				"field": "type",
-				"in": [ "Microsoft.Compute/disks", "Microsoft.ContainerRegistry/registries", "Microsoft.Sql/servers/databases", "Microsoft.Sql/servers", "Microsoft.Network/publicIPAddresses", "Microsoft.Storage/storageAccounts", "Microsoft.ContainerService/managedClusters", "Microsoft.Network/virtualNetworks", "Microsoft.Network/virtualNetworks/subnets", "Microsoft.Authorization/roleAssignments", "Microsoft.Compute/virtualMachineScaleSets", "Microsoft.Network/networkSecurityGroups", "Microsoft.ContainerService/managedClusters/agentPools" ]
+				"in": [ "Microsoft.Compute/disks", "Microsoft.ContainerRegistry/registries", "Microsoft.Sql/servers/databases", "Microsoft.Sql/servers", "Microsoft.Network/publicIPAddresses", "Microsoft.Storage/storageAccounts", "Microsoft.ContainerService/managedClusters", "Microsoft.Network/virtualNetworks", "Microsoft.Network/virtualNetworks/subnets", "Microsoft.Authorization/roleAssignments", "Microsoft.Compute/virtualMachineScaleSets/write", "Microsoft.Network/networkSecurityGroups", "Microsoft.ContainerService/managedClusters/agentPools" ]
 			  }
 			]
 		  }
