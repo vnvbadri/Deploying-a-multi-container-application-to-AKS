@@ -20,10 +20,10 @@
 				    "field": "type",
 				    "like": "Microsoft.Sql/servers/databases/*"
 					},
-					{
-					"field": "type",
-					"like": "Microsoft.Storage/storageAccounts/*"
-		            },
+		    {
+				    "field": "type",
+				    "like": "Microsoft.Storage/storageAccounts/*"
+		                        },
                     {
 				    "field": "type",
 				    "in": ["Microsoft.ContainerRegistry/registries", "Microsoft.ContainerService/managedClusters", "Microsoft.Sql/servers", "Microsoft.Sql/servers/databases", "Microsoft.Storage/storageAccounts"]
