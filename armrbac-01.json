@@ -12,7 +12,19 @@
                     "Microsoft.Resources/deployments/*",
                     "Microsoft.Sql/servers/*",
                     "Microsoft.Sql/servers/databases/*",
-                    "Microsoft.OperationalInsights/Workspaces/*"
+                    "Microsoft.OperationalInsights/Workspaces/*",
+                    "Microsoft.Compute/disks/*",
+                    "Microsoft.Network/publicIPAddresses/*",
+                    "Microsoft.Network/virtualNetworks/*",
+                    "Microsoft.Network/virtualNetworks/subnets/*",
+                    "Microsoft.Network/virtualNetworks/subnets/write",
+                    "Microsoft.Network/networkSecurityGroups/*",
+                    "Microsoft.Storage/storageAccounts/*",
+                    "Microsoft.Storage/register/action",
+                    "Microsoft.Authorization/roleAssignments/write",
+                    "Microsoft.Compute/virtualMachineScaleSets/write",
+                    "Microsoft.ContainerService/managedClusters/agentPools/write",
+                    "Microsoft.ContainerService/managedClusters/listClusterUserCredential/action"
                 ],
     "NotActions":  [
 
