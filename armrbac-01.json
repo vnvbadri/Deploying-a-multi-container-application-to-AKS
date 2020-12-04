@@ -7,7 +7,7 @@
                     "Microsoft.Authorization/*/write",
                     "Microsoft.ContainerRegistry/registries/*",
                     "Microsoft.ContainerService/managedClusters/*",
-                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Resources/subscriptions/resourceGroups/write",
                     "Microsoft.Storage/*",
                     "Microsoft.Resources/deployments/*",
                     "Microsoft.Sql/servers/*",
