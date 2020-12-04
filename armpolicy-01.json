@@ -96,7 +96,7 @@
 				  },
 				  {
 					"field": "Microsoft.Compute/virtualMachineScaleSets/sku.capacity",
-					"in": [ "2" ]
+					"in": [ "3" ]
 				  }
 				]
 			  }
