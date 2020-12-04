@@ -14,6 +14,10 @@
 			  },
 			  {
 				"field": "type",
+				"like":  "Microsoft.Network/routeTables"
+			  },
+			  {
+				"field": "type",
 				"like": "Microsoft.Network/virtualNetworks"
 			  },
 			  {
@@ -58,7 +62,7 @@
 			  },			  			  
 			  {
 				"field": "type",
-				"in": [ "Microsoft.Compute/disks", "Microsoft.ContainerRegistry/registries", "Microsoft.Sql/servers/databases", "Microsoft.Sql/servers", "Microsoft.Network/publicIPAddresses", "Microsoft.Storage/storageAccounts", "Microsoft.ContainerService/managedClusters", "Microsoft.Network/virtualNetworks", "Microsoft.Network/virtualNetworks/subnets", "Microsoft.Authorization/roleAssignments", "Microsoft.Compute/virtualMachineScaleSets", "Microsoft.Network/networkSecurityGroups", "Microsoft.ContainerService/managedClusters/agentPools" ]
+				"in": [ "Microsoft.Compute/disks", "Microsoft.Network/routeTables", "Microsoft.ContainerRegistry/registries", "Microsoft.Sql/servers/databases", "Microsoft.Sql/servers", "Microsoft.Network/publicIPAddresses", "Microsoft.Storage/storageAccounts", "Microsoft.ContainerService/managedClusters", "Microsoft.Network/virtualNetworks", "Microsoft.Network/virtualNetworks/subnets", "Microsoft.Authorization/roleAssignments", "Microsoft.Compute/virtualMachineScaleSets", "Microsoft.Network/networkSecurityGroups", "Microsoft.ContainerService/managedClusters/agentPools" ]
 			  }
 			]
 		  }
