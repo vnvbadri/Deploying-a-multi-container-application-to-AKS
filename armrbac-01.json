@@ -8,6 +8,7 @@
                     "Microsoft.ContainerRegistry/registries/*",
                     "Microsoft.ContainerService/managedClusters/*",
                     "Microsoft.Resources/subscriptions/resourceGroups/write",
+                    "Microsoft.Resources/subscriptions/resourcegroups/deployments/write",
                     "Microsoft.Storage/*",
                     "Microsoft.Resources/deployments/*",
                     "Microsoft.Sql/servers/*",
