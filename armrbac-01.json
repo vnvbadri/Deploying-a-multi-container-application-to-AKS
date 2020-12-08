@@ -23,7 +23,7 @@
                     "Microsoft.Network/virtualNetworks/subnets/*",
                     "Microsoft.Network/virtualNetworks/subnets/write",
                     "Microsoft.Network/networkSecurityGroups/*",
-                    "Microsoft.Storage/storageAccounts/*",
+                    "Microsoft.Storage/storageAccounts/write",
                     "Microsoft.Storage/register/action",
                     "Microsoft.Authorization/roleAssignments/write",
                     "Microsoft.Compute/virtualMachineScaleSets/write",
