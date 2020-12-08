@@ -11,6 +11,8 @@
                     "Microsoft.AlertsManagement/smartDetectorAlertRules/write",
                     "Microsoft.Insights/ActionGroups/Write",
                     "Microsoft.Insights/Components/Write",
+                    "Microsoft.Storage/storageAccounts/write",
+                    "Microsoft.Storage/storageAccounts/fileServices/fileshares/files/write",
                     "Microsoft.Storage/*",
                     "Microsoft.Resources/deployments/*",
                     "Microsoft.Sql/servers/*",
