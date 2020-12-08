@@ -118,8 +118,10 @@
 			  "equals": "Microsoft.ContainerRegistry/registries"
 			},
 			{
-			  "field": "Microsoft.ContainerRegistry/registries/sku.name",
-			  "notIn": ["Standard"]
+			  "not":{				
+			    "field": "Microsoft.ContainerRegistry/registries/sku.name",
+				"in": ["Standard"]
+			  }
 			}
 		   ]
 		},
