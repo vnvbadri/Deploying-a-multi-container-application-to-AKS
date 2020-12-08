@@ -12,7 +12,7 @@
                     "Microsoft.Resources/deployments/*",
                     "Microsoft.Sql/servers/*",
                     "Microsoft.Sql/servers/databases/*",
-                    "Microsoft.OperationalInsights/Workspaces/*",
+                    "Microsoft.OperationalInsights/*/write",
                     "Microsoft.Compute/disks/*",
                     "Microsoft.Network/publicIPAddresses/*",
                     "Microsoft.Network/virtualNetworks/*",
