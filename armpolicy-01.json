@@ -50,7 +50,7 @@
 			  },
 			  {
 				"field":"type",
-				"like": "Microsoft.OperationalInsights/workspaces"
+				"like": "Microsoft.OperationalInsights"
 			  },				
 			  {
 				"field": "type",
