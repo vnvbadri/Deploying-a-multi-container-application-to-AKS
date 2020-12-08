@@ -18,7 +18,7 @@
 			  },
 			  {
 				"field": "type",
-				"like":  "Microsoft.ClassicStorage/storageAccounts"
+				"like":  "Microsoft.Storage/storageAccounts"
 			  },				
 			  {
 				"field": "type",
