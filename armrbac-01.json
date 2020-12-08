@@ -13,6 +13,7 @@
                     "Microsoft.Sql/servers/*",
                     "Microsoft.Sql/servers/databases/*",
                     "Microsoft.OperationalInsights/Workspaces/*",
+                    "Microsoft.OperationsManagement/solutions/*",
                     "Microsoft.Compute/disks/*",
                     "Microsoft.Network/publicIPAddresses/*",
                     "Microsoft.Network/virtualNetworks/*",
