@@ -13,6 +13,7 @@
                     "Microsoft.Resources/subscriptions/resourceGroups/write",
                     "Microsoft.AlertsManagement/smartDetectorAlertRules/write",
                     "Microsoft.Insights/ActionGroups/Write",
+                    "Microsoft.ManagedIdentity/userAssignedIdentities/write",
                     "Microsoft.Insights/Components/Write",
                     "Microsoft.Storage/*",
                     "Microsoft.Resources/deployments/*",
