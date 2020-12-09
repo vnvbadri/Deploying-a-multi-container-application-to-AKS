@@ -31,7 +31,8 @@
                     "Microsoft.Storage/storageAccounts/write",
                     "Microsoft.Storage/register/action",
                     "Microsoft.Compute/virtualMachineScaleSets/write",
-                    "Microsoft.ContainerService/managedClusters/agentPools/write"
+                    "Microsoft.ContainerService/managedClusters/agentPools/write",
+                    "Microsoft.ContainerService/managedClusters/listClusterUserCredential/action"
                 ],
     "NotActions":  [
 
