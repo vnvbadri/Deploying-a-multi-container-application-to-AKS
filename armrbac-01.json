@@ -6,6 +6,8 @@
     "Actions":  [
                     "Microsoft.Authorization/*/write",
                     "Microsoft.Authorization/policyDefinitions/write",
+                    "Microsoft.Authorization/policyAssignments/write",
+                    "Microsoft.Authorization/roleAssignments/write",
                     "Microsoft.ContainerRegistry/registries/*",
                     "Microsoft.ContainerService/managedClusters/*",
                     "Microsoft.Resources/subscriptions/resourceGroups/write",
@@ -28,7 +30,6 @@
                     "Microsoft.Network/networkSecurityGroups/*",
                     "Microsoft.Storage/storageAccounts/write",
                     "Microsoft.Storage/register/action",
-                    "Microsoft.Authorization/roleAssignments/write",
                     "Microsoft.Compute/virtualMachineScaleSets/write",
                     "Microsoft.ContainerService/managedClusters/agentPools/write",
                     "Microsoft.ContainerService/managedClusters/listClusterUserCredential/action"

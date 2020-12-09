@@ -50,6 +50,10 @@
 			  },
 			  {
 				"field": "type",
+				"like": "Microsoft.Authorization/policyAssignments"
+			  },
+			  {
+				"field": "type",
 				"like": "Microsoft.Compute/virtualMachineScaleSets"
 			  },
 			  {
@@ -94,7 +98,7 @@
 			  },			  			  
 			  {
 				"field": "type",
-				"in": [ "Microsoft.Compute/disks", "Microsoft.Network/loadBalancers", "Microsoft.Authorization/policyDefinitions", "Microsoft.Resources/subscriptions/resourceGroups", "Microsoft.Insights/Components", "microsoft.insights/actionGroups", "microsoft.alertsmanagement/smartdetectoralertrules", "Microsoft.OperationsManagement/solutions", "Microsoft.OperationalInsights/workspaces", "Microsoft.Network/routeTables", "Microsoft.ContainerRegistry/registries", "Microsoft.Sql/servers/databases", "Microsoft.Sql/servers", "Microsoft.Network/publicIPAddresses", "Microsoft.Storage/storageAccounts", "Microsoft.ContainerService/managedClusters", "Microsoft.Network/virtualNetworks", "Microsoft.Network/virtualNetworks/subnets", "Microsoft.Authorization/roleAssignments", "Microsoft.Compute/virtualMachineScaleSets", "Microsoft.Network/networkSecurityGroups", "Microsoft.ContainerService/managedClusters/agentPools" ]
+				"in": [ "Microsoft.Compute/disks", "Microsoft.Authorization/policyAssignments", "Microsoft.Network/loadBalancers", "Microsoft.Authorization/policyDefinitions", "Microsoft.Resources/subscriptions/resourceGroups", "Microsoft.Insights/Components", "microsoft.insights/actionGroups", "microsoft.alertsmanagement/smartdetectoralertrules", "Microsoft.OperationsManagement/solutions", "Microsoft.OperationalInsights/workspaces", "Microsoft.Network/routeTables", "Microsoft.ContainerRegistry/registries", "Microsoft.Sql/servers/databases", "Microsoft.Sql/servers", "Microsoft.Network/publicIPAddresses", "Microsoft.Storage/storageAccounts", "Microsoft.ContainerService/managedClusters", "Microsoft.Network/virtualNetworks", "Microsoft.Network/virtualNetworks/subnets", "Microsoft.Authorization/roleAssignments", "Microsoft.Compute/virtualMachineScaleSets", "Microsoft.Network/networkSecurityGroups", "Microsoft.ContainerService/managedClusters/agentPools" ]
 			  }
 			]
 		  }
