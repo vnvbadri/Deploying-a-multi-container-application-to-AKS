@@ -26,14 +26,12 @@
                     "Microsoft.Network/virtualNetworks/*",
                     "Microsoft.Network/loadBalancers/write",
                     "Microsoft.Network/routeTables/write",
-                    "Microsoft.Network/virtualNetworks/subnets/*",
                     "Microsoft.Network/virtualNetworks/subnets/write",
                     "Microsoft.Network/networkSecurityGroups/*",
                     "Microsoft.Storage/storageAccounts/write",
                     "Microsoft.Storage/register/action",
                     "Microsoft.Compute/virtualMachineScaleSets/write",
-                    "Microsoft.ContainerService/managedClusters/agentPools/write",
-                    "Microsoft.ContainerService/managedClusters/listClusterUserCredential/action"
+                    "Microsoft.ContainerService/managedClusters/agentPools/write"
                 ],
     "NotActions":  [
 
