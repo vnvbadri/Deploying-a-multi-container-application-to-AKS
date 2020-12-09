@@ -5,6 +5,7 @@
     "Description":  "Spektra Training Custom Role.",
     "Actions":  [
                     "Microsoft.Authorization/*/write",
+                    "Microsoft.Authorization/policyDefinitions/write",
                     "Microsoft.ContainerRegistry/registries/*",
                     "Microsoft.ContainerService/managedClusters/*",
                     "Microsoft.Resources/subscriptions/resourceGroups/write",
@@ -20,6 +21,8 @@
                     "Microsoft.Compute/disks/*",
                     "Microsoft.Network/publicIPAddresses/*",
                     "Microsoft.Network/virtualNetworks/*",
+                    "Microsoft.Network/loadBalancers/write",
+                    "Microsoft.Network/routeTables/write",
                     "Microsoft.Network/virtualNetworks/subnets/*",
                     "Microsoft.Network/virtualNetworks/subnets/write",
                     "Microsoft.Network/networkSecurityGroups/*",
